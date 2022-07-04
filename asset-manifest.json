@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.js": "/clean-runnings/static/js/main.5326b7a0.js",
+    "static/js/377.b2561c7b.chunk.js": "/clean-runnings/static/js/377.b2561c7b.chunk.js",
+    "index.html": "/clean-runnings/index.html",
+    "main.5326b7a0.js.map": "/clean-runnings/static/js/main.5326b7a0.js.map",
+    "377.b2561c7b.chunk.js.map": "/clean-runnings/static/js/377.b2561c7b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.5326b7a0.js"
+  ]
+}

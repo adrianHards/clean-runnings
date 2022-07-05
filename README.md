@@ -17,9 +17,7 @@ The project brief, alongside API documentation can be found on Notion, [click he
 
 ## Our Idea
 
-Clean Runnings helps runners minimise their exposure to air pollution by showing them the Air Quality Index ([AQI](https://en.wikipedia.org/wiki/Air_quality_index)) along their custom running route. Check it out!
-
-https://user-images.githubusercontent.com/93719632/177094988-2876f6a2-9bef-4f1d-b113-2d0950e62ca7.mov
+Clean Runnings helps runners minimise their exposure to air pollution by showing them the Air Quality Index ([AQI](https://en.wikipedia.org/wiki/Air_quality_index)) along their custom running route. [Check it out](https://adrianhards.github.io/clean-runnings/)!
 
 ## Tech stack
 

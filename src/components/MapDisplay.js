@@ -4,7 +4,8 @@ import { Wrapper, Status } from '@googlemaps/react-wrapper';
 import { AirUtilAPI } from '../api/AirUtilAPI';
 import GoogleMap from './GoogleMap';
 
-const API_KEY = 'AIzaSyDgz-Iu4suXDMHGDFYxN1OBFYhtDWxEUPQ';
+const GOOGLE_KEY = process.env.REACT_APP_GOOGLE_API;
+console.log(GOOGLE_KEY)
 let markersArray = [];
 
 const SubmitButton = styled.button`
@@ -69,7 +70,7 @@ export default function MapDisplay({ aqiData, setAqiData }) {
   };
 
   return (
-    <Wrapper apiKey={API_KEY} render={render}>
+    <Wrapper apiKey={GOOGLE_KEY} render={render}>
       <GoogleMap
         center={center}
         zoom={zoom}
@@ -77,19 +78,19 @@ export default function MapDisplay({ aqiData, setAqiData }) {
         onClick={onClick}
         allMarkers={allMarkers}
       />
-            <SubmitButton 
+            <SubmitButton
             onClick={handleSubmit}
             >
             Submit
             </SubmitButton>
 
-            { aqiData.length > 0 ? 
+            { aqiData.length > 0 ?
                     <a href="#Results">
                       <ResultsButton>
                       See Results
                       </ResultsButton>
                     </a>
-                    : 
+                    :
             <iframe title='flying paper plane' src="https://embed.lottiefiles.com/animation/77737"></iframe>
           }
     </Wrapper>

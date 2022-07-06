@@ -64,7 +64,13 @@ cd clean-running
 npm install
 ```
 
-#### Step 3. Run the project locally 🚀
+#### Step 3. Create your API keys
+
+Visit [Google JavaScript API](https://developers.google.com/maps/documentation/javascript/react-map) and [ambee](https://www.getambee.com/) to secure an API key.
+
+Once you have those, follow [these](https://github.com/gitname/react-gh-pages) steps.
+
+#### Step 4. Run the project locally 🚀
 
 ```
 npm run start
